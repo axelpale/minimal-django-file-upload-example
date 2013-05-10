@@ -5,12 +5,17 @@ Project contains source code that was made originally for the Django file upload
 
 The goal with minimal-django-file-upload-example is to demonstrate and teach how the file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to quess what is important and what is not.
 
-Currently the code is available for Django 1.3 and Django 1.4. See src/for_django_1-3/ and src/for_django_1-4/
+Currently the code is available for Django 1.3, Django 1.4 and Django 1.5. See src/for_django_1-x/ for corresponding the code.
 
-Differences between implementations for django 1.3 and 1.4
-----------------------------------------------------------
+Differences between code for Django 1.3 and 1.4
+-----------------------------------------------
 - Directory hierachy follows Django's defaults. For example manage.py has risen one level up.
 - Due to hierarchy change absolute package paths are now more recommended and therefore used. Look INSTALLED_APPS in settings.py for example.
 - Little more comments
 - More encoding definitions # -*- coding: utf-8 -*-
 - Database renamed to database.sqlite3
+
+Differences between code for Django 1.4 and 1.5
+-----------------------------------------------
+- urls.py: Django 1.5 recommends RedirectView to be used instead of django.views.generic.simple.redirect_to. See https://docs.djangoproject.com/en/1.5/ref/class-based-views/base/#redirectview for details.
+- list.html: url template tag requires view names to be double quoted. See https://docs.djangoproject.com/en/dev/releases/1.5/#overview for details.
