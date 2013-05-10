@@ -5,7 +5,7 @@ Project contains source code that was made originally for the Django file upload
 
 The goal with minimal-django-file-upload-example is to demonstrate and teach how the file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to quess what is important and what is not.
 
-Currently [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/), [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) and [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) are supported. See src/for_django_1-x/ for the corresponding code.
+Currently [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/), [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) and [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) are supported. See [src/for_django_1-x/](https://github.com/doph/minimal-django-file-upload-example/tree/master/src) for the corresponding code.
 
 Differences between code for Django 1.3 and 1.4
 -----------------------------------------------
@@ -17,5 +17,5 @@ Differences between code for Django 1.3 and 1.4
 
 Differences between code for Django 1.4 and 1.5
 -----------------------------------------------
-- urls.py: Django 1.5 recommends RedirectView to be used instead of django.views.generic.simple.redirect_to. See https://docs.djangoproject.com/en/1.5/ref/class-based-views/base/#redirectview for details.
-- list.html: url template tag requires view names to be double quoted. See https://docs.djangoproject.com/en/dev/releases/1.5/#overview for details.
+- urls.py: Django 1.5 recommends RedirectView to be used instead of django.views.generic.simple.redirect_to. See [RedirectView](https://docs.djangoproject.com/en/1.5/ref/class-based-views/base/#redirectview) for details.
+- list.html: url template tag requires view names to be double quoted. See [Django 1.5 release note overview](https://docs.djangoproject.com/en/dev/releases/1.5/#overview) for details.
