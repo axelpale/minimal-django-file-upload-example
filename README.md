@@ -22,4 +22,4 @@ Differences between code for Django 1.4 and 1.5
 
 Differences between code for Django 1.5 and 1.6
 -----------------------------------------------
-- one additional import
+- myapp/urls.py: changed `from django.conf.urls import patterns, url` to `from django.conf.urls.defaults import patterns, url`
