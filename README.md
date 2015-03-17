@@ -15,7 +15,7 @@ Differences between code for Django 1.6 and 1.7
 
 Differences between code for Django 1.5 and 1.6
 -----------------------------------------------
-- myapp/urls.py: changed `from django.conf.urls import patterns, url` to `from django.conf.urls.defaults import patterns, url`
+- myapp/urls.py: changed the line `from django.conf.urls.defaults import patterns, url` to `from django.conf.urls import patterns, url`
 
 
 Differences between code for Django 1.4 and 1.5
