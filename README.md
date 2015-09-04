@@ -5,12 +5,29 @@ Project contains source code that was made originally for the [Django file uploa
 
 The goal with minimal-django-file-upload-example is to demonstrate and teach how file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to guess what is important and what is not.
 
-Currently [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/), [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/), [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/), [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) and [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) are supported. See [src/for_django_1-x/](https://github.com/doph/minimal-django-file-upload-example/tree/master/src) for the corresponding code.
+Currently [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/), [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/), [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/), [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/), [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/), and [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) are supported. See the code for each in [src/for_django_1-x/](https://github.com/doph/minimal-django-file-upload-example/tree/master/src).
+
+Usage (Django 1.8)
+------------------
+First ensure you have Django 1.8 installed. Then:
+
+    $ git clone https://github.com/axelpale/minimal-django-file-upload-example.git
+	$ cd minimal-django-file-upload-example
+	$ cd src/for_django_1-8/myproject
+	$ python manage.py migrate
+	$ python manage.py runserver
+
+
+Differences between code for Django 1.7 and 1.8
+-----------------------------------------------
+- settings.py: New TEMPLATE settings. See [upgrading instructions](https://docs.djangoproject.com/en/1.8/ref/templates/upgrading/) for details.
+- settings.py: reverted to the default directory for db.sqlite3 database and  media dir.
+- urls.py: Added explicit RedirectView permanent argument: `RedirectView.as_view(url='/myapp/list/', permanent=True))`
 
 
 Differences between code for Django 1.6 and 1.7
 -----------------------------------------------
-- just run `./manage.py migrate` for Django 1.7 vs. the previously used `./manage.py syncdb`
+- use `./manage.py migrate` instead of `./manage.py syncdb`
 
 
 Differences between code for Django 1.5 and 1.6
