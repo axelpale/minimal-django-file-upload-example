@@ -10,6 +10,9 @@ include/
 lib/
 pip-selfcheck.json
 
+# OS X related
+.DS_Store
+
 # minimal-django-file-upload-example related
-**/myproject/database/database.sqlite3
+src/for_django_*/myproject/db.sqlite3
 **/myproject/media/documents/**
