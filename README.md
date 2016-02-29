@@ -6,13 +6,13 @@ Project contains source code that was made originally for the [Django file uploa
 The goal with minimal-django-file-upload-example is to demonstrate and teach how file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to guess what is important and what is not.
 
 The following Django versions are supported:  
-- [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) [src/for_django_1-9/](src/for_django_1.9).
-- [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) [src/for_django_1-8/](src/for_django_1.8).
-- [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) [src/for_django_1-7/](src/for_django_1.7).
-- [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) [src/for_django_1-6/](src/for_django_1.6).
-- [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) [src/for_django_1-5/](src/for_django_1.5).
-- [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) [src/for_django_1-4/](src/for_django_1.4).
-- [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) [src/for_django_1-3/](src/for_django_1.3).
+- [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../tree/master/src/for_django_1.9).
+- [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](src/for_django_1.8).
+- [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](src/for_django_1.7).
+- [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) | [source](src/for_django_1.6).
+- [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) | [source](src/for_django_1.5).
+- [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) | [source](src/for_django_1.4).
+- [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) | [source](src/for_django_1.3).
 
 Usage (Django 1.9)
 ------------------
