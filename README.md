@@ -7,12 +7,12 @@ The goal with minimal-django-file-upload-example is to demonstrate and teach how
 
 The following Django versions are supported:  
 - [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../../tree/master/src/for_django_1-9/myproject).
-- [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](src/for_django_1.8).
-- [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](src/for_django_1.7).
-- [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) | [source](src/for_django_1.6).
-- [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) | [source](src/for_django_1.5).
-- [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) | [source](src/for_django_1.4).
-- [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) | [source](src/for_django_1.3).
+- [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](../../tree/master/src/for_django_1-8/myproject).
+- [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](../../tree/master/src/for_django_1-7/myproject).
+- [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) | [source](../../tree/master/src/for_django_1-6/myproject).
+- [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) | [source](../../tree/master/src/for_django_1-5/myproject).
+- [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) | [source](../../tree/master/src/for_django_1-4/myproject).
+- [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) | [source](../../tree/master/src/for_django_1-3/myproject).
 
 Usage (Django 1.9)
 ------------------
