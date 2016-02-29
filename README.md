@@ -6,7 +6,7 @@ Project contains source code that was made originally for the [Django file uploa
 The goal with minimal-django-file-upload-example is to demonstrate and teach how file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to guess what is important and what is not.
 
 The following Django versions are supported:  
-- [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../../tree/master/src/for_django_1.9/myproject).
+- [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../../tree/master/src/for_django_1-9/myproject).
 - [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](src/for_django_1.8).
 - [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](src/for_django_1.7).
 - [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) | [source](src/for_django_1.6).
