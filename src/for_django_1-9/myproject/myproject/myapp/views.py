@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.template import RequestContext
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
@@ -25,8 +25,8 @@ def list(request):
     documents = Document.objects.all()
 
     # Render list page with the documents and the form
-    return render_to_response(
+    return render(
+        request,
         'list.html',
-        {'documents': documents, 'form': form},
-        context_instance=RequestContext(request)
+        {'documents': documents, 'form': form}
     )
