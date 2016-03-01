@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from django.conf.urls import patterns, url
+from django.conf.urls import url
+from myproject.myapp.views import list
 
-urlpatterns = patterns(
-    'myproject.myapp.views',
-    url(r'^list/$', 'list', name='list'),
-)
+urlpatterns = [
+    url(r'^list/$', list, name='list')
+]
