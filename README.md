@@ -5,15 +5,22 @@ Project contains source code that was made originally for the [Django file uploa
 
 The goal with minimal-django-file-upload-example is to demonstrate and teach how file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to guess what is important and what is not.
 
-Currently [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/), [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/), [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/), [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/), [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/), and [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) are supported. See the code for each in [src/for_django_1-x/](https://github.com/doph/minimal-django-file-upload-example/tree/master/src).
+The following Django versions are supported:  
+- [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../../tree/master/src/for_django_1-9/myproject).
+- [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](../../tree/master/src/for_django_1-8/myproject).
+- [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](../../tree/master/src/for_django_1-7/myproject).
+- [Django 1.6](https://docs.djangoproject.com/en/dev/releases/1.6/) | [source](../../tree/master/src/for_django_1-6/myproject).
+- [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) | [source](../../tree/master/src/for_django_1-5/myproject).
+- [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) | [source](../../tree/master/src/for_django_1-4/myproject).
+- [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) | [source](../../tree/master/src/for_django_1-3/myproject).
 
-Usage (Django 1.8)
+Usage (Django 1.9)
 ------------------
-First ensure you have Django 1.8 installed. Then:
+First ensure you have Django 1.9 installed. Then:
 
     $ git clone https://github.com/axelpale/minimal-django-file-upload-example.git
 	$ cd minimal-django-file-upload-example
-	$ cd src/for_django_1-8/myproject
+	$ cd src/for_django_1-9/myproject
 	$ python manage.py migrate
 	$ python manage.py runserver
 
