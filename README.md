@@ -5,7 +5,8 @@ Project contains source code that was made originally for the [Django file uploa
 
 The goal with minimal-django-file-upload-example is to demonstrate and teach how file uploading is done with Django. Because of the academic nature of the project all the extra functionality is left out. Otherwise you would have hard time to guess what is important and what is not.
 
-The following Django versions are supported:  
+The following Django versions are supported:
+- [Django 2.0.2](https://docs.djangoproject.com/en/2.0/releases/2.0.2/) | [source](../../tree/master/src/for_django_2-0/myproject).
 - [Django 1.9](https://docs.djangoproject.com/en/dev/releases/1.9/) | [source](../../tree/master/src/for_django_1-9/myproject).
 - [Django 1.8](https://docs.djangoproject.com/en/dev/releases/1.8/) | [source](../../tree/master/src/for_django_1-8/myproject).
 - [Django 1.7](https://docs.djangoproject.com/en/dev/releases/1.7/) | [source](../../tree/master/src/for_django_1-7/myproject).
@@ -13,6 +14,18 @@ The following Django versions are supported:
 - [Django 1.5](https://docs.djangoproject.com/en/dev/releases/1.5/) | [source](../../tree/master/src/for_django_1-5/myproject).
 - [Django 1.4](https://docs.djangoproject.com/en/dev/releases/1.4/) | [source](../../tree/master/src/for_django_1-4/myproject).
 - [Django 1.3](https://docs.djangoproject.com/en/dev/releases/1.3/) | [source](../../tree/master/src/for_django_1-3/myproject).
+
+Usage (Django 2.0.2)
+------------------
+First ensure you have Django 2.0.2 installed. Then:
+
+    $ git clone https://github.com/axelpale/minimal-django-file-upload-example.git
+	$ cd minimal-django-file-upload-example
+	$ cd src/for_django_2-0/myproject
+    $ python manage.py makemigrations
+	$ python manage.py migrate --run-syncdb
+	$ python manage.py runserver
+
 
 Usage (Django 1.9)
 ------------------
